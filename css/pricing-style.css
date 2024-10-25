@@ -477,9 +477,32 @@ input::-webkit-outer-spin-button{
 }
 
 
+
 @media (max-width: 550px) {
     #lightBoxContainer {
         overflow-y: auto; 
         max-height: 100%; 
+    }
+  
+    .col .inputBox{
+        margin: 0px;
+    }
+    .col .inputBox label{
+        margin-bottom: 0px;
+    }
+    .col .title{
+        margin: 0px;
+    }
+    .containerse form .submit_btn{
+        margin: 0px;
+    }
+    .col .inputBox input,.col .inputBox select{
+        padding: 5px 15px;
+    }
+    .containerse form{
+        padding: 10px;
+    }
+    .containerse form .submit_btn{
+        padding: 5px;
     }
 } 
