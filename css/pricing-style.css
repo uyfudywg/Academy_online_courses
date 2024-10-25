@@ -475,3 +475,11 @@ input::-webkit-outer-spin-button{
     font-size: 32px;
     cursor: pointer;
 }
+
+
+@media (max-width: 550px) {
+    #lightBoxContainer {
+        overflow-y: auto; 
+        max-height: 100%; 
+    }
+} 
